@@ -8,7 +8,7 @@ test.cb( 'is-http2 - no url provided', t => {
     { cwd : __dirname },
     function( error, stdout, stderr ) {
       t.same( error.code, 1 );
-      t.same( stderr, 'Please enter host to check for HTTP/2 support\n' );
+      t.same( stderr.split( '\n' )[ 0 ], '  Please enter host to check for HTTP/2 support' );
       t.end();
     }
   );
