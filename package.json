@@ -1,0 +1,35 @@
+{
+  "name": "is-http2-cli",
+  "version": "1.0.0",
+  "description": "A CLI utility to check if a server supports HTTP/2",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint *.js",
+    "test": "npm run lint && nyc ava *.spec.js",
+    "coveralls": "nyc report --reporter=text-lcov | coveralls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stefanjudis/is-http2-cli.git"
+  },
+  "keywords": [
+    "HTTP",
+    "performance",
+    "network"
+  ],
+  "author": "Stefan Judis <stefanjudis@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stefanjudis/is-http2-cli/issues"
+  },
+  "homepage": "https://github.com/stefanjudis/is-http2-cli#readme",
+  "dependencies": {
+    "ava": "^0.7.0",
+    "chalk": "^1.1.1",
+    "coveralls": "^2.11.4",
+    "eslint": "^1.10.2",
+    "is-http2": "^1.0.3",
+    "meow": "^3.6.0",
+    "nyc": "^4.0.1"
+  }
+}
