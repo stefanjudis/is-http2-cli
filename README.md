@@ -5,6 +5,8 @@
 
 ![Screenshot](./screenshot.png)
 
+This is the CLI version of [is-http2](https://github.com/stefanjudis/is-http2).
+
 ## Install
 
 ```
