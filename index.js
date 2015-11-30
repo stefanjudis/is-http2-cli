@@ -47,8 +47,10 @@ if ( host ) {
     } );
 } else {
   console.error(
-    chalk.red( 'Please enter host to check for HTTP/2 support' )
+    chalk.red( '  Please enter host to check for HTTP/2 support' )
   );
+
+  console.log( cli.help );
 
   process.exit( 1 );
 }
