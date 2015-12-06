@@ -1,6 +1,6 @@
 {
   "name": "is-http2-cli",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A CLI utility to check if a server supports HTTP/2",
   "engines": {
     "node": ">= 4.0.0"
