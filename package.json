@@ -31,7 +31,7 @@
   "dependencies": {
     "ava": "^0.7.0",
     "chalk": "^1.1.1",
-    "coveralls": "^2.11.4",
+    "coveralls": "^2.11.6",
     "eslint": "^1.10.2",
     "is-http2": "^1.0.4",
     "meow": "^3.6.0",
