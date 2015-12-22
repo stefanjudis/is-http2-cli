@@ -29,12 +29,14 @@
   },
   "homepage": "https://github.com/stefanjudis/is-http2-cli#readme",
   "dependencies": {
-    "ava": "^0.7.0",
     "chalk": "^1.1.1",
+    "is-http2": "^1.0.4",
+    "meow": "^3.6.0"
+  },
+  "devDependencies" : {
+    "ava": "^0.7.0",
     "coveralls": "^2.11.4",
     "eslint": "^1.10.2",
-    "is-http2": "^1.0.4",
-    "meow": "^3.6.0",
     "nyc": "^4.0.1"
   }
 }
