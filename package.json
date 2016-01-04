@@ -31,7 +31,7 @@
   "dependencies": {
     "chalk": "^1.1.1",
     "is-http2": "^1.0.4",
-    "meow": "^3.6.0"
+    "meow": "^3.7.0"
   },
   "devDependencies": {
     "ava": "^0.9.1",
