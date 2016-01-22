@@ -23,8 +23,8 @@ Options
   -s, --include-spdy  Consider SPDY protocol as HTTP/2 supporting
 
 Examples
-  $ is-http twitter.com
-  $ is-http facebook.com -s
+  $ is-http2 twitter.com
+  $ is-http2 facebook.com -s
 ```
 
 ***************
