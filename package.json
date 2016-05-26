@@ -34,7 +34,7 @@
     "meow": "^3.6.0"
   },
   "devDependencies": {
-    "ava": "^0.11.0",
+    "ava": "^0.15.1",
     "coveralls": "^2.11.4",
     "eslint": "^2.2.0",
     "nyc": "^5.0.1"
