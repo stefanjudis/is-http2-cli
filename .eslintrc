@@ -1,6 +1,6 @@
 {
-  "ecmaFeatures": {
-    "modules": true
+  "parserOptions": {
+    "sourceType": "module"
   },
   "rules": {
     "indent": [
